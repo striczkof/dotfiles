@@ -1,0 +1,7 @@
+# Colour aliases
+alias ls="command ls --color=auto"
+alias grep="command grep --color=auto"
+
+# Alias for managing dotfiles git repo
+alias dotfile-git='command git --git-dir=$HOME/.config/dotfiles-git/ --work-tree=$HOME'
+
